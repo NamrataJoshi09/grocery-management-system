@@ -1,0 +1,38 @@
+<body>
+    
+<a href="adminboard">
+    <img src="https://as1.ftcdn.net/v2/jpg/02/67/27/50/1000_F_267275018_uibTXqi2eskAvlF30FpkEf6Vc7rFYboI.jpg"
+    height="50"width="80" style="margin-left: 80rem;"/></a>
+    
+<h2 id="a"> Here comes the Product List!</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th> Name</th>
+            <th>Category</th>
+            <th>Description</th>
+            
+            <th>Price</th>
+            <th>Image</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let product of products">
+            <td>{{product.name}}</td>
+          <td>{{product.categoryName}}</td>
+            <td>{{product.description}}</td>
+            <td>{{product.price |currency:'INR'}}</td>
+            <td>{{product.image}}</td>
+            <td>
+                
+                <button (click) = "updateProduct(product.id)" class = "btn btn-info"> Update</button>
+                <button (click) = "deleteProduct(product.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button>
+                <button (click) = "productDetails(product.id)" class = "btn btn-info" style="margin-left: 10px"> View</button>
+            </td>
+    
+        </tr>
+    </tbody>
+</table>
+
+</body>

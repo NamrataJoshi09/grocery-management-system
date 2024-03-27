@@ -1,0 +1,20 @@
+.form-group{
+    font-size: 20px;
+    margin-left:100px;
+    margin-right:120px;
+    
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:2px 2px 5px rgb(24, 25, 24);
+    color:rgb(1, 23, 1);
+    margin-left: 410px;   
+}
+.card{
+    background-image: url("https://media.istockphoto.com/id/1465760198/vector/abstract-blue-background-with-space-for-text.jpg?s=612x612&w=0&k=20&c=fXbSkVB3MdZjkaYUIX-Q7liCtmG5cr6kqAAzX-cM3L8=");
+}
+h4{
+    color: rgba(244, 5, 5, 0.951);
+}

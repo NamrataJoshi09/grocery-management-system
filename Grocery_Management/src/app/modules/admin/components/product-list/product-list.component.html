@@ -1,0 +1,18 @@
+
+<div class="content" style="margin-top: 3rem;">
+    <div fxLayout="row wrap" fxLayoutAlign="left" fxLayoutGap="2%">
+          <mat-card (click)="goToProduct(a.id)" class="example-card" *ngFor="let a of getproduct " fxFlex="18%" fxLayoutGap="2%">
+            <img mat-card-image [src]="a.image" style="height:12rem;">
+              <mat-card-content>
+              <p>{{a.name}}</p>
+            
+              <div class="addres_data">
+                <h3>{{a.price |currency:'INR'}} </h3>
+              </div>
+            </mat-card-content>
+          </mat-card>
+    </div>
+  </div>
+
+   
+

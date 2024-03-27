@@ -1,0 +1,41 @@
+marquee
+{
+  margin-top: 1rem;
+  background-color: rgb(9, 189, 159);
+  color:rgb(4, 4, 4);
+  font-size: 25px;
+  border: solid 3px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px; /* Add spacing between logo and text */
+}
+#reg
+{
+    padding-left: 40rem;
+}
+.home{
+    background-image:url("https://media.istockphoto.com/id/1352758440/photo/paper-shopping-food-bag-with-grocery-and-vegetables.jpg?s=612x612&w=0&k=20&c=iEYDgT97dpF7DuG4-QUJU3l0-5MKQb01mKbQgEG1pcc=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    height:400px;
+    margin: 4rem;
+  padding: 2rem; 
+}
+.footer
+{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 35px;
+    background-color:rgb(45, 2, 2);
+    text-align: center;
+    color: rgb(245, 244, 244);
+}

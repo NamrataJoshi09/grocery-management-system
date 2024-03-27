@@ -1,0 +1,27 @@
+marquee
+{
+  margin-top: 1rem;
+  background-color: rgb(9, 189, 159);
+  color:rgb(12, 11, 11);
+  font-size: 25px;
+  border: solid 3cap;
+}
+    h2{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow:2px 2px 5px green;
+        color:rgb(9, 66, 9);
+        margin-left: 70px;   
+    }
+    .form-group{
+        font-size: 20px;
+        margin-left:80px;
+        margin-right:80px;
+        
+    }
+    .form-control{
+        font-size: 15px;
+    }
+    body{
+        background-image: url("https://t4.ftcdn.net/jpg/01/16/88/37/360_F_116883786_wuckft1sNw1ouQfJ6FuquZnxea3qBlxy.jpg");
+    }

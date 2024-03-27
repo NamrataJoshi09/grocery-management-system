@@ -1,0 +1,142 @@
+/*.container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1.5rem;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    flex: 3 0;
+    border: 1px solid #ffbbbb;
+    border-radius: 1rem;
+    margin: .5rem;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #e4e4e4;
+}
+ul li img{
+    height:10 rem;
+    width:10rem;
+    border-radius: 100rem;
+    object-fit: cover;
+}
+ul li div{
+    padding: 1rem;
+}
+ul li div:not(:first-child){
+    flex-basis: 18%;
+}
+ul li select{
+    width:4rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid lightcoral;
+    font-weight: 100;
+}
+ul .remove-button{
+   cursor: pointer;
+}
+/*.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1 3;
+    height: 20rem;
+    border: 1px solid #ffbbbb;
+    border-radius: 1rem;
+}
+.checkout>div{
+    display: flex;
+    flex:3;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+ 
+    font-size: 1.3rem;
+}*/
+
+
+   body {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuyKgCwh3RzvfTRc_rEChBQSXjhrSnmm-8rQ&usqp=CAU");
+   }
+
+   .header .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(255, 71, 71);
+    font-family:cursive;
+   }
+   .card {
+    height: 60vh;
+    margin: 25px;
+    padding: 25px;
+   }
+   .center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, -155%);
+    text-align: center;
+   }
+   .center img {
+    color: inherit;
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 140px;
+    text-decoration: none;
+    margin: 10px 10px;
+   }
+   .card-table {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   }
+
+ .container img 
+ {
+    width: 5rem;
+    height:5rem;
+
+    object-fit: cover;
+}
+
+.btn {
+
+   display: flex;
+   justify-content:center;
+   padding: 15px;
+   border-radius: 5px;
+   
+   
+    
+}
+input[type=number]{
+   width: 40px;
+   padding-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

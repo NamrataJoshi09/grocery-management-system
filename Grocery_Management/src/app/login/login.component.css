@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://www.asianpaints.com/content/dam/asian_paints/colours/swatches/161.png.transform/cc-width-720-height-540/image.png");
+}
+
+    h2{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow:2px 2px 5px rgb(241, 235, 235);
+        color:rgb(102, 52, 52);
+        margin-left: 25px;   
+    }
+    .form-group{
+        font-size: 20px;
+        margin-left:20px;
+        margin-right:30px;
+        
+    }
+    .form-control{
+        font-size: 20px;
+        
+    }
+    marquee
+{
+  margin-top: 1rem;
+  background-color: rgb(44, 2, 2);
+  color:whitesmoke;
+  font-size: 25px;
+  border: solid 3px;
+}

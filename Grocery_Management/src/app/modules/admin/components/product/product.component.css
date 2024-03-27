@@ -1,0 +1,10 @@
+h2{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:2px 2px 5px rgb(16, 15, 15);
+    color:rgb(112, 15, 177); 
+  
+  }
+  body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vmT3s7o-4gjx7jioB4Epg_hxBwz0BCzvBA&usqp=CAU");
+  }

@@ -1,0 +1,28 @@
+body{
+    
+    background-color: rgb(172, 246, 242);
+}
+h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:2px 2px 5px yellowgreen;
+    color:rgb(1, 49, 1);
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    text-shadow:2px 2px 5px rgb(16, 16, 16);
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(187, 0, 255);
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
+h3{
+    color:rgb(14, 14, 15);
+    font-size: 20px;
+}
